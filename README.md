@@ -25,11 +25,11 @@ This is a Next.js starter template configured to use Bun, a fast all-in-one Java
 To get started, clone the repository and install the dependencies using Bun.
 
 ```bash
-git clone https://github.com/your-username/your-nextjs-starter.git
+git clone https://github.com/Vette1123/next-starter-template-bun
 ```
 
 ```bash
-cd your-nextjs-starter
+cd next-starter-template-bun
 bun install
 ```
 
