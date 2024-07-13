@@ -9,10 +9,10 @@ export default function Background({ children }: { children: ReactNode }) {
   useMouseMove()
   return (
     <>
-      <div className="-z-50 fixed top-0 left-0">
-        <div className="sticky top-0 left-0 h-screen w-screen overflow-hidden">
+      <div className="fixed left-0 top-0 -z-50">
+        <div className="sticky left-0 top-0 h-screen w-screen overflow-hidden">
           <div className="absolute inset-0 z-[-1] bg-muted-foreground/15" />
-          <div className="-translate-x-1/2 -translate-y-1/2 absolute top-[--y] left-[--x] z-[-1] h-56 w-56 rounded-full bg-gradient-radial from-0% from-muted-foreground/40 to-90% to-transparent blur-md" />
+          <div className="bg-gradient-radial absolute left-[--x] top-[--y] z-[-1] h-56 w-56 -translate-x-1/2 -translate-y-1/2 rounded-full from-muted-foreground/40 from-0% to-transparent to-90% blur-md" />
           <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
             <defs>
               <pattern
@@ -37,7 +37,6 @@ export default function Background({ children }: { children: ReactNode }) {
           </svg>
         </div>
       </div>
-
       {children}
     </>
   )

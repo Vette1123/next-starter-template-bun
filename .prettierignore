@@ -10,3 +10,8 @@ node_modules
 .next
 build
 .contentlayer
+.eslintrc.json
+bun.lockb
+.prettierignore
+LICENSE.MD
+tailwind.config.ts
