@@ -12,7 +12,7 @@ import {
 import { calSans, fontInter } from '@/lib/fonts'
 import { cn } from '@/lib/utils'
 import { Toaster } from '@/components/ui/sonner'
-import Background from '@/components/background'
+import Background from '@/components/shared/background'
 import { TailwindIndicator } from '@/components/tailwind-indicator'
 
 export const metadata: Metadata = {

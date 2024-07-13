@@ -14,4 +14,3 @@ build
 bun.lockb
 .prettierignore
 LICENSE.MD
-tailwind.config.ts
